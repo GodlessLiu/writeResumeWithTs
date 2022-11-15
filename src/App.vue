@@ -61,14 +61,9 @@
 import { t } from './example/temp1'
 const j = t()
 const e = () => {
-  // let originHtml = window.document.body.innerHTML;
-  //需要打印的元素
   let printHtml = document.getElementById("jl")!.innerHTML;
   window.document.body.innerHTML = printHtml;
   window.print();
-  // 方式一：还原之前html（缺点：有动态元素，不适用）
-  // document.body.innerHTML = originHtml;
-  //方式二：刷新页面重新加载
   location.reload();
   return false;
 }
