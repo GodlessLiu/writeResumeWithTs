@@ -2,13 +2,13 @@ export const t = ():temp1Type => {
     return {
         "name": "刘ee",
         "identity": "24届应届生",
-        "headerLogo":"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2F_aIv6BRPbrByvG4oCPBReXNu5pkaS0cFF6mygszhgD2OS9KTf3d-j_wdvfcJFGnLTYGVDmosZWTLal1WbWRW3A.jpg&refer=http%3A%2F%2Fqcloud.dpfile.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671114891&t=4120375eb1ff68e47479f1bd9af56a5a",
+        "headerLogo":"https://img0.baidu.com/it/u=1144734905,846700949&fm=253&fmt=auto&app=138&f=JPEG?w=350&h=490",
         "contactMe": {
             "phone": 153903352222,
             "email": "2788372221@qq.com",
             "where": "四川"
         },
-        "age": 21,
+        "age": 1000,
         "JobHuntingIntention": "前端工程师",
         "items": [
             {
@@ -49,6 +49,9 @@ export const t = ():temp1Type => {
             {
                 "title": "专业技能",
                 "content":[
+                    {
+                        describe:'打飞机'
+                    },
                     {
                         describe:'熟练的理解，熟练掌握 ES5/ES6+语法'
                     },

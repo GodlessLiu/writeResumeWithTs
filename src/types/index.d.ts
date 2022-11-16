@@ -9,11 +9,11 @@ interface temp1Type {
     },
     age: number
     JobHuntingIntention: string,
-    items:itemType[],
+    items:temp1itemType[],
     theme?:string
 }
 
-interface itemType {
+interface temp1itemType {
     title: string
     header?: {
         title: string
@@ -22,11 +22,50 @@ interface itemType {
             end: string
         }
     },
-    content: contentType[]
+    content: temp1contentType[]
 }
 
 
-interface contentType {
+interface temp1contentType {
     name?:string
     describe: string
+}
+
+// ------------------------------------------------------------------------------------------------
+
+interface temp2Type {
+    name:string
+    JobHuntingIntention:string
+    contactMe: {
+        phone: number
+        email: string
+        school: string
+    },
+    jobBackgrounds:temp2jobBackground[],
+    skills:string[]
+    projectBackgrounds:temp2projectBackground[]
+    selfIntroduction: string[],
+    theme:string
+
+
+}
+
+
+interface temp2jobBackground{
+    name:string
+    time:{
+        start: string
+        end: string
+    }
+    department: string // 部门
+    position: string // 职位
+    duty:string[]
+}
+
+
+interface temp2projectBackground{
+    name:string
+    describe:string
+    technology:string[]
+    content:string[] // 工作内容
 }
