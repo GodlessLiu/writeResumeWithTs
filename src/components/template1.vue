@@ -1,5 +1,5 @@
 <template>
-  <div class="w-4/6 m-auto pb-10" id="jl">
+  <div class="bg-white shadow-lg pb-10">
     <div :style="{backgroundColor:j.theme}" class="mb-4 h-14 bg-blue-300 pl-4">
       <img src="./assets/study.svg" alt="" class="h-2/3 inline-block align-text-bottom">
       <span class="text-white font-bold text-2xl">

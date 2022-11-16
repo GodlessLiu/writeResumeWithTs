@@ -1,5 +1,5 @@
 <template>
-    <div class="pl-8 w-4/6 m-auto box-border bg-red-200 pb-10" id="jl">
+    <div class="pl-8 box-border bg-white shadow-lg pb-10">
         <div class="introduction pr-8 pt-10 mb-8">
             <p class=" text-3xl">{{j.name}}</p>
             <p class="text-sm mt-1">{{j.JobHuntingIntention}}</p>

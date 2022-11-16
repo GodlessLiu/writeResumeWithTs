@@ -1,6 +1,8 @@
 <template>
   <button class="btn" @click="e">打印</button>
-  <template2Vue></template2Vue>
+  <div id="jl" class="w-4/6 m-auto">
+    <template2Vue></template2Vue>
+  </div>
 </template>
 
 <script setup lang='ts'>

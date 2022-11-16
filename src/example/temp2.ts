@@ -47,6 +47,6 @@ export const t = (): temp2Type => {
             ' 有责任心、有主动分析问题的能力。',
             ' 善于沟通， 团队协作能力比较强。'
         ],
-        theme:'red'
+        theme:'#6daeb0'
     }
 }
