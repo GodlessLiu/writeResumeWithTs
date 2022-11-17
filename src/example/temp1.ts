@@ -50,9 +50,6 @@ export const t = ():temp1Type => {
                 "title": "专业技能",
                 "content":[
                     {
-                        describe:'打飞机'
-                    },
-                    {
                         describe:'熟练的理解，熟练掌握 ES5/ES6+语法'
                     },
                     {
