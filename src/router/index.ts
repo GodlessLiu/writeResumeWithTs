@@ -4,11 +4,11 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 const r: RouteRecordRaw[] = [{
     path: '/',
-    component: () => import('../views/index.vue')
+    component: () => import('../views/preview.vue')
 },{
     path: '/template',
     name:'template',
-    component: () => import('../views/getPdf.vue')
+    component: () => import('../views/core/getPdf.vue')
 }
 ]
 

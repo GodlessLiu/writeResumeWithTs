@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang='ts'>
-import {getPdfTemplateList} from './index'
+import {getPdfTemplateList} from './register'
 import {useRoute} from 'vue-router'
 
 const useRout = useRoute()

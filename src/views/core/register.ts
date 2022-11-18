@@ -1,6 +1,6 @@
 import { ref } from 'vue';
-import template1Vue from '../components/template1.vue'
-import template2Vue from '../components/template2.vue'
+import template1Vue from '../../components/template1.vue'
+import template2Vue from '../../components/template2.vue'
 type templateListType = {
     template: any
     preview: any
@@ -17,7 +17,7 @@ function initTemplateList(...args: argType[]): [templateListType[], Record<strin
         previewTemplateList.push({
             template: args[index].temp,
             name: args[index].name,
-            preview: new URL(`../assets/${args[index].name}.png`, import.meta.url).href,
+            preview: new URL(`../../assets/${args[index].name}.png`, import.meta.url).href,
         })
         getPdfTemplateList[args[index].name] = args[index].temp
     }

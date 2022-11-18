@@ -9,7 +9,7 @@
 
 <script setup lang='ts'>
 import {useRouter } from "vue-router";
-import {previewTemplateList} from './index'
+import {previewTemplateList} from './core/register'
 
 
 const router = useRouter()
